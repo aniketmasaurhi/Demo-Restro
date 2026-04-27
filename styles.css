@@ -60,6 +60,7 @@ body {
   gap: 10px;
 }
 
+
 .brand-logo {
   width: 38px;
   height: 38px;
@@ -421,8 +422,8 @@ body {
   transform: scale(1.05);
 }
 
-/*  ar btnn  */
-.view-ar-btn {
+/* AR button */
+.ar-btn {
   background: rgba(34, 197, 94, 0.15);
   border: 1px solid rgba(34, 197, 94, 0.3);
   color: var(--accent);
@@ -433,11 +434,13 @@ body {
   cursor: pointer;
   transition: all 0.2s;
 }
-.view-ar-btn:hover {
+
+.ar-btn:hover {
   background: rgba(34, 197, 94, 0.25);
   border-color: rgba(34, 197, 94, 0.5);
   transform: scale(1.05);
 }
+
 /* Cart Screen */
 .cart-header {
   display: flex;
@@ -947,3 +950,43 @@ body {
   }
 }
 
+
+.logo img {
+  width: 50;
+  height: 50px;
+  object-fit: contain; /* keeps aspect ratio */
+  border-radius: 50%;
+}
+
+
+.order-notes-section {
+  margin: 12px 0;
+}
+
+.order-notes-label {
+  display: flex;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: var(--text);
+  font-weight: 600;
+}
+
+.order-notes-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  resize: none;
+  font-size: 14px;
+  outline: none;
+}
+
+.order-notes-input:focus {
+  border-color: var(--primary);
+}
+
+.order-notes-hint {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 4px;
+}
