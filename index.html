@@ -3,49 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Order | Anni Cafe</title>
+    <title>Order | The Saffron Crown</title>
     <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      margin-top: 50px;
-      background: #f5f5f5;
-    }
-
-    model-viewer {
-      width: 100%;
-      max-width: 600px;
-      height: 500px;
-      margin: auto;
-      display: none; /* Hidden initially */
-    }
-
-    .ar-button {
-      padding: 15px 30px;
-      font-size: 18px;
-      background: #007bff;
-      color: white;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: 0.3s;
-    }
-
-    .ar-button:hover {
-      background: #0056b3;
-    }
-  </style>
   </head>
   <body>
     <div class="page">
       <header class="header">
         <div class="brand">
-          <span class="brand-logo">Annii</span>
+        <div class="logo"><img src="logo.jpeg"></div>
           <div class="brand-text">
-            <div class="brand-title">Anni Cafe</div>
+            <div class="brand-title">The Saffron Crown</div>
             <div class="brand-subtitle">Dine-In Ordering</div>
           </div>
         </div>
@@ -74,8 +41,6 @@
             <h2 class="info-title">How it works</h2>
             <ol class="info-steps">
               <li>Browse the menu from your table.</li>
-              <li>Click on "View AR" to see your food item in 
-                  <br>3d on your table through your mobile.</li>
               <li>Add items to your order.</li>
               <li>Review your cart and confirm.</li>
               <li>Your order will be sent to the kitchen.</li>
@@ -98,7 +63,6 @@
           <button class="category-tab" data-category="mains">Main Course</button>
           <button class="category-tab" data-category="desserts">Desserts</button>
           <button class="category-tab" data-category="beverages">Beverages</button>
-          <button class="category-tab" data-category="anni">Anni</button>
         </div>
 
         <!-- Menu Items -->
@@ -138,6 +102,26 @@
             />
             <div class="table-number-error" id="table-number-error"></div>
           </div>
+
+        <div class="order-notes-section">
+  <label for="order-notes" class="order-notes-label">
+    <span>📝 Special Instructions</span>
+  </label>
+
+  <textarea
+    id="order-notes"
+    class="order-notes-input"
+    placeholder="e.g. Less spicy, no onion, extra cheese, etc."
+    rows="3"
+    maxlength="200"
+  ></textarea>
+
+  <div class="order-notes-hint">
+    Optional: Add cooking instructions for chef
+  </div>
+</div>
+
+
           <div class="cart-summary">
             <div class="cart-summary-row">
               <span class="summary-label">Items:</span>
@@ -178,21 +162,8 @@
         </div>
       </div>
 
-
-
-  <script>
-    function openAR() {
-      const model = document.getElementById('arModel');
-      model.style.display = "block";
-      model.activateAR();
-    }
-  </script>
-
-
-
-
       <footer class="footer">
-        <span> Anni Cafe </span>
+        <span> • AR Magic </span>
       </footer>
     </div>
 
