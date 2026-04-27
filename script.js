@@ -8,18 +8,19 @@
 //   USA: "15551234567" (for +1 555-123-4567)
 //   UK: "447911123456" (for +44 7911 123456)
 // ============================================
-const WHATSAPP_PHONE_NUMBER = "7970682320";
+const WHATSAPP_PHONE_NUMBER = "917970682320";
 
 // Menu Data
 const menuData = {
   appetizers: [
     {
       id: 1,
-      name: " Rolls",
+      name: "Jungle Spring Rolls",
       description: "Crispy vegetable spring rolls with sweet chili sauce",
       price: 180,
       emoji: "🥟",
-      category: "appetizers"
+      category: "appetizers",
+      arLink: "https://ar-code.com/kjFkVPZSD"
     },
     {
       id: 2,
@@ -27,7 +28,8 @@ const menuData = {
       description: "Grilled cottage cheese with spices and mint chutney",
       price: 220,
       emoji: "🍢",
-      category: "appetizers"
+      category: "appetizers",
+      arLink: "https://ar-code.com/kjFkVPZSD"
     },
     {
       id: 3,
@@ -35,7 +37,8 @@ const menuData = {
       description: "Spicy buffalo wings with ranch dip",
       price: 280,
       emoji: "🍗",
-      category: "appetizers"
+      category: "appetizers",
+      arLink: "https://ar-code.com/kjFkVPZSD"
     },
     {
       id: 4,
@@ -43,17 +46,19 @@ const menuData = {
       description: "Toasted bread with tomatoes, basil, and garlic",
       price: 200,
       emoji: "🍞",
-      category: "appetizers"
+      category: "appetizers",
+      arLink: "https://ar-code.com/kjFkVPZSD"
     }
   ],
   mains: [
     {
       id: 5,
-      name: "Anni Special Curry",
+      name: "Jungle Special Curry",
       description: "Aromatic curry with mixed vegetables and spices",
       price: 320,
       emoji: "🍛",
-      category: "mains"
+      category: "mains",
+      arLink: "https://ar-code.com/kjFkVPZSD"
     },
     {
       id: 6,
@@ -61,7 +66,8 @@ const menuData = {
       description: "Tender grilled chicken with herb butter",
       price: 380,
       emoji: "🍖",
-      category: "mains"
+      category: "mains",
+      arLink: "https://ar-code.com/kjFkVPZSD"
     },
     {
       id: 7,
@@ -69,7 +75,8 @@ const menuData = {
       description: "Fragrant basmati rice with vegetables and spices",
       price: 280,
       emoji: "🍚",
-      category: "mains"
+      category: "mains",
+      arLink: "https://ar-code.com/kjFkVPZSD"
     },
     {
       id: 8,
@@ -77,7 +84,8 @@ const menuData = {
       description: "Classic pizza with tomato, mozzarella, and basil",
       price: 350,
       emoji: "🍕",
-      category: "mains"
+      category: "mains",
+      arLink: "https://ar-code.com/kjFkVPZSD"
     },
     {
       id: 9,
@@ -85,7 +93,8 @@ const menuData = {
       description: "Creamy pasta with bacon and parmesan",
       price: 340,
       emoji: "🍝",
-      category: "mains"
+      category: "mains",
+      arLink: "https://ar-code.com/kjFkVPZSD"
     },
     {
       id: 10,
@@ -93,7 +102,8 @@ const menuData = {
       description: "Beer-battered fish with crispy fries",
       price: 360,
       emoji: "🐟",
-      category: "mains"
+      category: "mains",
+      arLink: "https://ar-code.com/kjFkVPZSD"
     }
   ],
   desserts: [
@@ -103,7 +113,8 @@ const menuData = {
       description: "Warm chocolate cake with molten center",
       price: 220,
       emoji: "🍫",
-      category: "desserts"
+      category: "desserts",
+      arLink: "https://ar-code.com/kjFkVPZSD"
     },
     {
       id: 12,
@@ -111,7 +122,8 @@ const menuData = {
       description: "Vanilla ice cream with chocolate sauce and nuts",
       price: 180,
       emoji: "🍨",
-      category: "desserts"
+      category: "desserts",
+      arLink: "https://ar-code.com/kjFkVPZSD"
     },
     {
       id: 13,
@@ -119,7 +131,8 @@ const menuData = {
       description: "Creamy New York style cheesecake",
       price: 240,
       emoji: "🍰",
-      category: "desserts"
+      category: "desserts",
+      arLink: "https://ar-code.com/kjFkVPZSD"
     },
     {
       id: 14,
@@ -127,7 +140,8 @@ const menuData = {
       description: "Fresh seasonal fruits with honey",
       price: 150,
       emoji: "🍓",
-      category: "desserts"
+      category: "desserts",
+      arLink: "https://ar-code.com/kjFkVPZSD"
     }
   ],
   beverages: [
@@ -137,7 +151,8 @@ const menuData = {
       description: "Refreshing lime soda with mint",
       price: 80,
       emoji: "🥤",
-      category: "beverages"
+      category: "beverages",
+      arLink: "https://ar-code.com/kjFkVPZSD"
     },
     {
       id: 16,
@@ -145,7 +160,8 @@ const menuData = {
       description: "Creamy mango smoothie",
       price: 120,
       emoji: "🥭",
-      category: "beverages"
+      category: "beverages",
+      arLink: "https://ar-code.com/kjFkVPZSD"
     },
     {
       id: 17,
@@ -153,7 +169,8 @@ const menuData = {
       description: "Hot brewed coffee",
       price: 90,
       emoji: "☕",
-      category: "beverages"
+      category: "beverages",
+      arLink: "https://ar-code.com/kjFkVPZSD"
     },
     {
       id: 18,
@@ -161,7 +178,8 @@ const menuData = {
       description: "Freshly squeezed orange juice",
       price: 100,
       emoji: "🍊",
-      category: "beverages"
+      category: "beverages",
+      arLink: "https://ar-code.com/kjFkVPZSD"
     },
     {
       id: 19,
@@ -169,20 +187,10 @@ const menuData = {
       description: "Chilled iced tea with lemon",
       price: 85,
       emoji: "🧊",
-      category: "beverages"
-    }],
-  
-   anni: [
-    {
-      id: 20,
-      name: "Kuch Nhi",
-      description: "NA",
-      price: 1000,
-      emoji: "🥤",
-      category: "anni"
+      category: "beverages",
+      arLink: "https://ar-code.com/kjFkVPZSD"
     }
-  ] 
-  
+  ]
 };
 
 // Cart State
@@ -211,6 +219,7 @@ const cartFooter = document.getElementById("cart-footer");
 const totalAmount = document.getElementById("total-amount");
 const categoryTabs = document.querySelectorAll(".category-tab");
 const orderSummary = document.getElementById("order-summary");
+const arBtn = document.getElementById("ar-btn");
 
 // Initialize
 document.addEventListener("DOMContentLoaded", () => {
@@ -282,8 +291,7 @@ function renderMenu() {
     ...menuData.appetizers,
     ...menuData.mains,
     ...menuData.desserts,
-    ...menuData.beverages,
-    ...menuData.anni
+    ...menuData.beverages
   ];
 
   let filteredItems = allItems;
@@ -304,12 +312,30 @@ function renderMenu() {
         <p class="menu-item-description">${item.description}</p>
         <div class="menu-item-footer">
           <span class="menu-item-category">${item.category}</span>
-          <button class="view-ar-btn" onclick="href=window.location.href='https://ar-code.com/kjFkVPZSD';">
-            view AR
-          </button>
-          <button class="add-to-cart-btn" onclick="addToCart(${item.id})">
-            Add to Cart
-          </button>
+          <button class="ar-btn" onclick="openAR('${item.arLink || ""}')"${!item.arLink ? "disabled" : ""}>
+          View AR
+           </button>
+
+
+          ${(() => {
+  const cartItem = cart.find(i => i.id === item.id);
+
+  if (cartItem) {
+    return `
+      <div class="quantity-controls">
+        <button class="quantity-btn" onclick="updateQuantity(${item.id}, -1)">−</button>
+        <span class="quantity-value">${cartItem.quantity}</span>
+        <button class="quantity-btn" onclick="updateQuantity(${item.id}, 1)">+</button>
+      </div>
+    `;
+  } else {
+    return `
+      <button class="add-to-cart-btn" onclick="addToCart(${item.id})">
+        Add to Cart
+      </button>
+    `;
+  }
+})()}
         </div>
       </div>
     </div>
@@ -324,8 +350,7 @@ function addToCart(itemId) {
     ...menuData.appetizers,
     ...menuData.mains,
     ...menuData.desserts,
-    ...menuData.beverages,
-    ...menuData.anni
+    ...menuData.beverages
   ];
   const item = allItems.find(i => i.id === itemId);
 
@@ -339,12 +364,14 @@ function addToCart(itemId) {
   }
 
   updateCartUI();
-  showScreen("cart");
+  renderMenu();
+  //  showScreen("cart");
 }
 
 function removeFromCart(itemId) {
   cart = cart.filter(item => item.id !== itemId);
   updateCartUI();
+  renderMenu();
 }
 
 function updateQuantity(itemId, change) {
@@ -357,7 +384,29 @@ function updateQuantity(itemId, change) {
   } else {
     updateCartUI();
   }
+  renderMenu();
 }
+
+
+//   AR fail function 
+
+function openAR(link) {
+  if (!link) {
+    alert("AR view not available for this item yet.");
+    return;
+  }
+  window.open(link, "_blank");
+}
+  /*
+function openAR(link) {
+  if (!link) {
+    alert("AR view not available for this item yet.");
+    return;
+  }
+  window.location.href = link; // ✅ same tab
+} 
+  */
+
 
 function updateCartUI() {
   // Update cart count
@@ -429,32 +478,35 @@ function updateCartUI() {
 }
 
 // Format WhatsApp Message
-function formatWhatsAppMessage(tableNumber) {
+function formatWhatsAppMessage(tableNumber, orderNotes) {
   const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
   const itemCount = cart.reduce((sum, item) => sum + item.quantity, 0);
   
-  let message = `🍽️ *NEW ORDER - Anni Cafe*\n\n`;
-  message += `🪑 *Table Number:* ${tableNumber}\n`;
-  message += `🗓️ *Date:* ${new Date().toLocaleString('en-IN', { dateStyle: 'short', timeStyle: 'short' })}\n\n`;
-  message += `📋 *Order Details:*\n`;
+  let message = ` *NEW ORDER - The Saffron Crown*\n\n`;
+  message += ` *Table Number:* ${tableNumber}\n`;
+  if (orderNotes) {
+  message += ` *Special Instructions:* ${orderNotes}\n\n`;
+  }
+  message += ` *Date:* ${new Date().toLocaleString('en-IN', { dateStyle: 'short', timeStyle: 'short' })}\n\n`;
+  message += ` *Order Details:*\n`;
   message += `${'─'.repeat(25)}\n\n`;
-  
+
   cart.forEach((item, index) => {
-    message += `${index + 1}. ${item.emoji} *${item.name}*\n`;
+    message += `${index + 1}.  *${item.name}*\n`;
     message += `   Quantity: ${item.quantity} × ₹${item.price} = ₹${item.price * item.quantity}\n\n`;
   });
   
   message += `${'─'.repeat(25)}\n`;
-  message += `📦 Total Items: ${itemCount}\n`;
-  message += `💰 *Total Amount: ₹${total}*\n\n`;
-  message += `Thank you! 🙏`;
+  message += ` Total Items: ${itemCount}\n`;
+  message += ` *Total Amount: ₹${total}*\n\n`;
+  message += `Thank you! `;
   
   return message;
 }
 
 // Send Order to WhatsApp
-function sendOrderToWhatsApp(tableNumber) {
-  const message = formatWhatsAppMessage(tableNumber);
+function sendOrderToWhatsApp(tableNumber, orderNotes) {
+  const message = formatWhatsAppMessage(tableNumber, orderNotes);
   const encodedMessage = encodeURIComponent(message);
   const whatsappUrl = `https://wa.me/${WHATSAPP_PHONE_NUMBER}?text=${encodedMessage}`;
   
@@ -470,6 +522,7 @@ function confirmOrder() {
   const tableNumberInput = document.getElementById("table-number");
   const tableNumberError = document.getElementById("table-number-error");
   const tableNumber = tableNumberInput.value.trim();
+  const orderNotes = document.getElementById("order-notes").value.trim();
 
   // Validate table number
   if (!tableNumber) {
@@ -523,13 +576,13 @@ function confirmOrder() {
     
     // Send order to WhatsApp after a brief delay
     setTimeout(() => {
-      sendOrderToWhatsApp(tableNumber);
+      sendOrderToWhatsApp(tableNumber, orderNotes);
       whatsappNote.textContent = "✅ Order sent to WhatsApp!";
       whatsappNote.style.color = "var(--accent)";
     }, 500);
   } else {
     // Fallback: send immediately if note element doesn't exist
-    sendOrderToWhatsApp(tableNumber);
+    sendOrderToWhatsApp(tableNumber, orderNotes);
   }
 }
 
